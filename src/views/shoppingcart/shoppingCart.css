@@ -1,0 +1,84 @@
+.card{
+    height: 320px !important;
+    width: 200px !important;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-image{
+    height: 200px;
+    width: 200px;
+}
+
+.shopContainer{
+    width: 1336px;
+    min-height: 760px;
+    height: auto;
+    padding: 100px;
+    overflow-x: hidden;
+}
+
+.shopGrid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1336px;
+    flex-wrap: wrap;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #4D2FF4;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4D2FF4;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: white;
+}
+
+
+.button {
+    background-color: #4D2FF4; /* Green */
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    height: 40px;
+    margin-right: 100%;
+  }

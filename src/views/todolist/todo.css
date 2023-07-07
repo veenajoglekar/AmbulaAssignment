@@ -1,0 +1,56 @@
+.button2:hover {
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,0.24), 0 7px 6px 0 rgba(0,0,0,0.19);
+  }
+
+
+  .button2 {
+    background-color: #4D2FF4; /* Green */
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    height: 40px;
+  }
+
+  .container{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 890px 1fr;
+    /* border-top: 1px solid blue; */
+  }
+
+  .container ul{
+    border-right: 1px solid blue;
+  }
+
+  .todoGrid{
+    display: grid;
+    grid-template-columns: 30px 600px 160px;
+    grid-gap: 25px;
+    align-items: center;
+  }
+
+
+  .newText{
+    height: 30px;
+  }
+
+  .strike{
+    text-decoration: line-through;
+    color: green;
+  }
+
+  input[type = "checkbox" ]{
+    height: 30px;
+  }
